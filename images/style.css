@@ -1,0 +1,204 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+
+.nav {
+    background-image: url(../images/bg-header-desktop.png);
+    background-position: bottom;
+    text-align: center;
+}
+
+.nav img {
+    padding: 46px 0px 10px 0px;
+}
+
+.navbar {
+    text-align: center;
+    padding: 10px 416px;
+}
+
+h1 {
+    font-size: 45px;
+}
+
+p {
+    color: hsl(201, 11%, 66%);
+    font-size: 20px;
+}
+
+.navbtn {
+    display: flex;
+    justify-content: center;
+    padding: 50px 0px;
+}
+
+.lbtn {
+    padding: 0px 15px;
+}
+
+.lbtn a {
+    text-decoration: none;
+    padding: 15px 30px;
+    color: white;
+    border-radius: 22px;
+}
+
+#donldbtn {
+    background-color: hsl(171, 66%, 44%);
+}
+
+#donldbtn1 {
+    background-color: hsl(233, 100%, 69%);
+}
+
+h2 {
+    font-size: 35px;
+}
+
+h3 {
+    font-size: 25px;
+    padding-top: 45px;
+}
+
+.cap1 {
+    text-align: center;
+    padding: 105px 394px 75px 394px
+}
+
+.preview {
+    display: flex;
+    justify-content: space-between;
+}
+
+.SIH {
+    padding: 0px 268px 0px 10px;
+    width: 442px;
+}
+
+#computer {
+    width: 680px;
+    height: 490px;
+}
+
+.middle {
+    text-align: center;
+    padding: 39px 406px;
+}
+
+.device {
+    text-align: center;
+}
+
+.device img {
+    width: 1005px;
+    height: 540px;
+}
+
+.productivity {
+    text-align: center;
+}
+
+.list1 {
+    display: flex;
+    justify-content: space-between;
+    padding: 60px 217px;
+    text-align: center;
+}
+
+.list p {
+    font-size: 18px;
+}
+
+.list {
+    padding: 26px;
+}
+
+.inner {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 222px 120px 248px;
+}
+
+.last {
+    text-align: center;
+    padding: 0px 395px;
+}
+
+.collection {
+    background-color: hsl(197, 20%, 93%);
+    align-items: center;
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: repeat(5, 1fr);
+    padding: 20px 30px 20px 219px;
+}
+
+.info a {
+    text-decoration: none;
+    color: hsl(201, 11%, 66%);
+}
+
+.info {
+    padding: 20px 30px 20px;
+}
+
+.info i {
+    font-size: 35px;
+}
+
+.info a:hover {
+    color: hsl(171, 66%, 44%);
+}
+
+@media(max-width:700px) {
+    .navbar {
+        padding: 10px 123px;
+    }
+    .navbtn {
+        flex-direction: column;
+    }
+    .lbtn {
+        padding: 20px 0px;
+    }
+    .cap1 {
+        padding: 30px 150px 25px 150px;
+    }
+    #computer {
+        width: 577px;
+        height: 463px;
+        padding: 20px;
+    }
+    .preview {
+        flex-direction: column;
+    }
+    .SIH {
+        padding: 10px 90px;
+        text-align: center;
+    }
+    .middle {
+        padding: 40px 109px;
+    }
+    .device img {
+        width: 618px;
+        height: 490px;
+    }
+    .productivity {
+        padding: 0px 100px;
+    }
+    .list1 {
+        flex-direction: column;
+        padding: 60px 98px;
+    }
+    .inner {
+        flex-direction: column;
+    }
+    .collection {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(5, 1fr);
+    }
+}
